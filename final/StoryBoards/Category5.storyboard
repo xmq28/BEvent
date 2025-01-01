@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,7 +11,7 @@
         <!--Admin Dashboard View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="AdminDashboardViewController" customModule="BEvent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="AdminDashboardViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,7 +34,7 @@
                                 <rect key="frame" x="0.0" y="762" width="393" height="99"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rul-WI-MqN">
-                                <rect key="frame" x="75" y="295.66666666666669" width="231" height="34.333333333333314"/>
+                                <rect key="frame" x="75" y="291.66666666666669" width="231" height="38.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="View Events">
                                     <color key="baseBackgroundColor" red="0.82765775918960571" green="0.48501801490783691" blue="0.4270825982093811" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
@@ -44,7 +44,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTl-kx-WF9">
-                                <rect key="frame" x="75" y="346" width="231" height="34.333333333333314"/>
+                                <rect key="frame" x="75" y="346" width="231" height="38.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="View Feedbacks">
                                     <color key="baseBackgroundColor" red="0.82765775918960571" green="0.48501801490783691" blue="0.4270825982093811" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
@@ -54,7 +54,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJp-a3-TO9">
-                                <rect key="frame" x="75" y="447.33333333333331" width="231" height="34.333333333333314"/>
+                                <rect key="frame" x="75" y="439.33333333333331" width="231" height="38.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Managing Organizers">
                                     <color key="baseBackgroundColor" red="0.82765775918960571" green="0.48501801490783691" blue="0.4270825982093811" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
@@ -64,7 +64,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GYX-3R-RLQ">
-                                <rect key="frame" x="75" y="496.66666666666669" width="231" height="34.333333333333314"/>
+                                <rect key="frame" x="75" y="492.66666666666669" width="231" height="38.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="View Organizers Posts">
                                     <color key="baseBackgroundColor" red="0.82765775918960571" green="0.48501801490783691" blue="0.4270825982093811" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
@@ -74,7 +74,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CXd-9u-RgA">
-                                <rect key="frame" x="75" y="546" width="231" height="34.333333333333371"/>
+                                <rect key="frame" x="75" y="546" width="231" height="38.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Create Event Organizer">
                                     <color key="baseBackgroundColor" red="0.82765775918960571" green="0.48501801490783691" blue="0.4270825982093811" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
@@ -145,7 +145,7 @@
         <!--Managing Events View Controller-->
         <scene sceneID="0RO-dh-9jI">
             <objects>
-                <viewController id="whU-Av-B3J" customClass="ManagingEventsViewController" customModule="BEvent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="whU-Av-B3J" customClass="ManagingEventsViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zvk-SI-kSq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,10 +165,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventCell" id="EAF-En-TtI">
-                                        <rect key="frame" x="0.0" y="50" width="240" height="43.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="50" width="240" height="47.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EAF-En-TtI" id="96X-Mb-ige">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="47.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -220,7 +220,7 @@
         <!--Categories Management View Controller-->
         <scene sceneID="7Kb-Pw-6Gp">
             <objects>
-                <viewController storyboardIdentifier="CategoriesManagementViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3fe-MP-GW5" customClass="CategoriesManagementViewController" customModule="BEvent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CategoriesManagementViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3fe-MP-GW5" customClass="CategoriesManagementViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fdF-Zw-maO">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -274,10 +274,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" id="U4Q-Nh-6LC">
-                                        <rect key="frame" x="0.0" y="50" width="241" height="43.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="50" width="241" height="47.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="U4Q-Nh-6LC" id="KoJ-gL-AHL">
-                                            <rect key="frame" x="0.0" y="0.0" width="241" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="241" height="47.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -335,7 +335,7 @@
         <!--View Organizers Posts View Controller-->
         <scene sceneID="0dR-CK-3mO">
             <objects>
-                <viewController id="8bn-i4-vLb" customClass="ViewOrganizersPostsViewController" customModule="BEvent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8bn-i4-vLb" customClass="ViewOrganizersPostsViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e80-YQ-yiq">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -363,10 +363,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="EventCell" id="OBZ-Cw-mEG">
-                                        <rect key="frame" x="0.0" y="50" width="240" height="43.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="50" width="240" height="47.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OBZ-Cw-mEG" id="Rv9-t3-nEE">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="47.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -416,7 +416,7 @@
         <!--Edit Organizer View Controller-->
         <scene sceneID="haS-Hp-B8l">
             <objects>
-                <viewController storyboardIdentifier="EditOrganizerViewController" id="pxR-uM-MdF" customClass="EditOrganizerViewController" customModule="BEvent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="EditOrganizerViewController" id="pxR-uM-MdF" customClass="EditOrganizerViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tZS-zE-vdt">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -438,22 +438,22 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beventbar" translatesAutoresizingMaskIntoConstraints="NO" id="Xy7-W5-pDt">
                                 <rect key="frame" x="0.0" y="762" width="393" height="99"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose a username" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bCq-9v-Y8u">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Choose a username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bCq-9v-Y8u">
                                 <rect key="frame" x="78" y="246" width="243" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="choose a password" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nYo-hh-W5r">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="choose a password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nYo-hh-W5r">
                                 <rect key="frame" x="80" y="308" width="243" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="50S-0t-QuG">
-                                <rect key="frame" x="78" y="372.66666666666669" width="243" height="216.00000000000006"/>
+                                <rect key="frame" x="78" y="368.66666666666669" width="243" height="216.00000000000006"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfc-3W-8ZU">
-                                <rect key="frame" x="104" y="622.66666666666663" width="185" height="34.333333333333371"/>
+                                <rect key="frame" x="104" y="618.66666666666663" width="185" height="38.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Save">
                                     <color key="baseBackgroundColor" red="0.82765775918960571" green="0.48501801490783691" blue="0.4270825982093811" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
@@ -512,7 +512,7 @@
         <!--Categories Management View Controller-->
         <scene sceneID="1LP-43-K0s">
             <objects>
-                <viewController id="TA1-yd-e7v" customClass="CategoriesManagementViewController" customModule="BEvent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TA1-yd-e7v" customClass="CategoriesManagementViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="paW-hs-Z16">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -537,17 +537,17 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Khd-e9-VsM">
-                                <rect key="frame" x="100.99999999999999" y="513.33333333333337" width="147.66666666666663" height="34.333333333333371"/>
+                                <rect key="frame" x="100.99999999999999" y="505.33333333333331" width="147.66666666666663" height="38.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Edit Category">
-                                    <color key="baseBackgroundColor" red="0.82765775918960571" green="0.48501801490783691" blue="0.4270825982093811" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.82745098039215681" green="0.48627450980392156" blue="0.42745098039215684" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <segue destination="TPH-Kf-QPP" kind="show" id="ari-hj-4pd"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sY4-4y-WcJ">
-                                <rect key="frame" x="100.99999999999999" y="561.66666666666663" width="147.66666666666663" height="34.333333333333371"/>
+                                <rect key="frame" x="100.99999999999999" y="557.66666666666663" width="147.66666666666663" height="38.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Delete Category">
                                     <color key="baseBackgroundColor" red="0.82765775918960571" green="0.48501801490783691" blue="0.4270825982093811" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
@@ -570,10 +570,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" id="tVT-ZT-nCw">
-                                        <rect key="frame" x="0.0" y="50" width="240" height="43.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="50" width="240" height="47.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="tVT-ZT-nCw" id="5FJ-an-AEY">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="47.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -627,7 +627,7 @@
         <!--Create Event Organizer View Controller-->
         <scene sceneID="8d6-Nj-And">
             <objects>
-                <viewController id="XU0-Xb-IHe" customClass="CreateEventOrganizerViewController" customModule="BEvent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XU0-Xb-IHe" customClass="CreateEventOrganizerViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lvX-QM-E0M">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -638,30 +638,30 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beventbar" translatesAutoresizingMaskIntoConstraints="NO" id="kLg-ea-Mxl">
                                 <rect key="frame" x="0.0" y="752" width="393" height="99"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose a username" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QhG-7p-Ieg">
-                                <rect key="frame" x="75" y="307.66666666666669" width="249" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Choose a username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QhG-7p-Ieg">
+                                <rect key="frame" x="75" y="303.66666666666669" width="249" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose an Email" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MtF-lZ-Aoo">
-                                <rect key="frame" x="75" y="363.66666666666669" width="249" height="34"/>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Choose an Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MtF-lZ-Aoo">
+                                <rect key="frame" x="75" y="359.66666666666669" width="249" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Choose a Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p6Q-Ls-ATW">
-                                <rect key="frame" x="75" y="417.66666666666669" width="248" height="34"/>
+                                <rect key="frame" x="75" y="413.66666666666669" width="248" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="21L-KL-8yh">
-                                <rect key="frame" x="75" y="476.66666666666669" width="248" height="44.000000000000057"/>
+                                <rect key="frame" x="75" y="472.66666666666669" width="248" height="44.000000000000057"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="y4P-bb-xnN"/>
                                 </constraints>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5SM-rV-4lw">
-                                <rect key="frame" x="115" y="546.66666666666663" width="163" height="34.333333333333371"/>
+                                <rect key="frame" x="115" y="542.66666666666663" width="163" height="38.333333333333371"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Submit">
                                     <color key="baseBackgroundColor" red="0.82765775918960571" green="0.48501801490783691" blue="0.4270825982093811" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
@@ -732,7 +732,7 @@
         <!--Managing Organizers View Controller-->
         <scene sceneID="ZHe-Ds-OJ9">
             <objects>
-                <viewController id="1Mr-DB-Emc" customClass="ManagingOrganizersViewController" customModule="BEvent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="1Mr-DB-Emc" customClass="ManagingOrganizersViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Byf-Xx-y3I">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -760,10 +760,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="OrganizerCell" id="lpa-IA-L0V">
-                                        <rect key="frame" x="0.0" y="50" width="240" height="43.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="50" width="240" height="47.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lpa-IA-L0V" id="hJB-BJ-Xca">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="47.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -807,7 +807,7 @@
         <!--Add Category View Controller-->
         <scene sceneID="Ce5-4s-qOb">
             <objects>
-                <viewController id="9Nt-4F-Qex" customClass="AddCategoryViewController" customModule="BEvent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9Nt-4F-Qex" customClass="AddCategoryViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QgT-A4-qRZ">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -829,7 +829,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beventbar" translatesAutoresizingMaskIntoConstraints="NO" id="Lc0-Kf-t51">
                                 <rect key="frame" x="0.0" y="752" width="393" height="99"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter new category" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="62y-79-bQq">
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter new category" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="62y-79-bQq">
                                 <rect key="frame" x="62" y="310" width="282" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="bSF-7d-Tv9"/>
@@ -841,7 +841,9 @@
                                 <rect key="frame" x="124" y="402" width="153" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Submit"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Submit">
+                                    <color key="baseBackgroundColor" red="0.82745098039999998" green="0.48627450979999998" blue="0.42745098040000001" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <action selector="addCategory:" destination="9Nt-4F-Qex" eventType="primaryActionTriggered" id="3Ux-sD-eMF"/>
                                 </connections>
@@ -888,7 +890,7 @@
         <!--Edit Category View Controller-->
         <scene sceneID="oOa-yf-sJh">
             <objects>
-                <viewController id="TPH-Kf-QPP" customClass="EditCategoryViewController" customModule="BEvent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="TPH-Kf-QPP" customClass="EditCategoryViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="n1q-16-yZm">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -911,19 +913,19 @@
                                 <rect key="frame" x="0.0" y="752" width="393" height="99"/>
                             </imageView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="urE-uL-FOB">
-                                <rect key="frame" x="59" y="309.66666666666669" width="275" height="42"/>
+                                <rect key="frame" x="59" y="305.66666666666669" width="275" height="42"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="42" id="se5-5b-h38"/>
                                 </constraints>
                             </pickerView>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="edit name of category" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="b2X-HM-QQT">
-                                <rect key="frame" x="59" y="404.66666666666669" width="275" height="34"/>
+                                <rect key="frame" x="59" y="400.66666666666669" width="275" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RJj-u2-Vbn">
-                                <rect key="frame" x="101" y="474.66666666666669" width="191" height="34.333333333333314"/>
+                                <rect key="frame" x="101" y="470.66666666666669" width="191" height="38.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Submit">
                                     <color key="baseBackgroundColor" red="0.82765775918960571" green="0.48501801490783691" blue="0.4270825982093811" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
@@ -981,7 +983,7 @@
         <!--Delete Category View Controller-->
         <scene sceneID="EIt-9h-hva">
             <objects>
-                <viewController id="pcU-VV-WiP" customClass="DeleteCategoryViewController" customModule="BEvent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="pcU-VV-WiP" customClass="DeleteCategoryViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nje-cg-keU">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -996,17 +998,17 @@
                                 <rect key="frame" x="0.0" y="752" width="393" height="99"/>
                             </imageView>
                             <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K8o-0a-CxV">
-                                <rect key="frame" x="66" y="298.33333333333331" width="281" height="49"/>
+                                <rect key="frame" x="66" y="296.33333333333331" width="281" height="49"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="qo4-ZG-HoM"/>
                                 </constraints>
                             </pickerView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sKX-Lf-VSy">
-                                <rect key="frame" x="110" y="408.33333333333331" width="183" height="34.333333333333314"/>
+                                <rect key="frame" x="110" y="406.33333333333331" width="183" height="38.333333333333314"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Submit">
-                                    <color key="baseBackgroundColor" red="0.82765775918960571" green="0.48501801490783691" blue="0.4270825982093811" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" red="0.82745098039215681" green="0.48627450980392156" blue="0.42745098039215684" alpha="0.99967956540000003" colorSpace="custom" customColorSpace="sRGB"/>
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="deleteCategory:" destination="pcU-VV-WiP" eventType="primaryActionTriggered" id="qUX-HU-dyp"/>
@@ -1065,7 +1067,7 @@
         <!--View Feedbacks View Controller-->
         <scene sceneID="DZD-Ba-Vf3">
             <objects>
-                <viewController storyboardIdentifier="ViewFeedbacksViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hb4-Pr-Z0f" customClass="ViewFeedbacksViewController" customModule="BEvent" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewFeedbacksViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hb4-Pr-Z0f" customClass="ViewFeedbacksViewController" customModule="final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="nUC-Zj-f1R">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1093,10 +1095,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FeedbackCell" id="Rb8-RA-1oS">
-                                        <rect key="frame" x="0.0" y="50" width="240" height="43.666667938232422"/>
+                                        <rect key="frame" x="0.0" y="50" width="240" height="47.666667938232422"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Rb8-RA-1oS" id="Juo-ei-xou">
-                                            <rect key="frame" x="0.0" y="0.0" width="240" height="43.666667938232422"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="240" height="47.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
